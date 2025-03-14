@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "new_challenge": "bash .scripts/new_challenge.sh"
   },
   "keywords": [],
   "author": "",

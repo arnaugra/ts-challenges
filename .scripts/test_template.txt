@@ -1,0 +1,5 @@
+import { {{FUNCTION_NAME}} } from "."
+
+describe("{{FUNCTION_NAME}}", () => {
+    // write tests here
+})

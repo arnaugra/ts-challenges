@@ -1,0 +1,4 @@
+export function {{FUNCTION_NAME}}(args: any): void {
+    // implement
+    return 
+}

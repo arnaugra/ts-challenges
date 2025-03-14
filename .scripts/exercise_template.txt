@@ -1,0 +1,16 @@
+# {{CHALLENGE_TITLE}}
+
+Decribe the description to solve the challenge
+
+Rules
+- Rule 1
+- Rule 2
+- Rule 3
+- Rule 4
+
+```TypeScript
+functionName(somthing1) // true
+functionName(somthing2) // false
+functionName(somthing3) // null
+functionName(somthing4) // true
+```
