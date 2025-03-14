@@ -27,7 +27,7 @@ mkdir -p "$NEW_DIR"
 
 # Si el archivo de plantilla existe, reemplaza {{CHALLENGE_TITLE}} con el nombre del desafío y lo copia a exercise.md
 if [[ -f "$EXERCISE_TEMPLATE_FILE" ]]; then
-    sed "s/{{CHALLENGE_TITLE}}/$1/g" "$EXERCISE_TEMPLATE_FILE" > "$NEW_DIR/exercise.md"
+    sed -e "s/{{CHALLENGE_TITLE}}/$1/g" -e "s/{{FUNCTION_NAME}}/$NAME_CAMELCASE/g" "$EXERCISE_TEMPLATE_FILE" > "$NEW_DIR/exercise.md"
 else
     echo "⚠️  Plantilla `exercise_template.txt` no encontrada. Creando un archivo vacío."
     touch "$NEW_DIR/exercise.md"

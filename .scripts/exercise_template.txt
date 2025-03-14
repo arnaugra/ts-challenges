@@ -9,8 +9,8 @@ Rules
 - Rule 4
 
 ```TypeScript
-functionName(somthing1) // true
-functionName(somthing2) // false
-functionName(somthing3) // null
-functionName(somthing4) // true
+{{FUNCTION_NAME}}(somthing1) // true
+{{FUNCTION_NAME}}(somthing2) // false
+{{FUNCTION_NAME}}(somthing3) // null
+{{FUNCTION_NAME}}(somthing4) // true
 ```
